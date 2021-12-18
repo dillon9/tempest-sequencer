@@ -20,7 +20,7 @@ def makeSong():
             song += " "
         c += 1
 
-    return song.strip()
+    return song.strip().replace("E#", "Eb").replace("Fb","F#").replace("B#", "Bb").replace("Cb", "C#")
 
 
 c = 0
